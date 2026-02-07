@@ -73,6 +73,8 @@ int main()
 		else
 		{
 			printf("Try again.");
+			actual_counter--;
+			counter--;
 		}
 		actual_counter++;
 		counter++;
