@@ -59,7 +59,6 @@ int main()
 
 		if(answer == 'e')
 		{
-			printf("I have guessed your number in %d guesses! Thanks for playing \n", counter);
 			low = high + 1;
 		}
 		else if(answer=='g')
@@ -85,6 +84,8 @@ int main()
 			middle = (high + low)/2;
 			printf("I have guessed your number in %d guesses! It is %d Thanks for playing \n", actual_counter, middle);
 		}
+	
+	getchar();
 
 	return 0;
 }
